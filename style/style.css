@@ -1,0 +1,141 @@
+/* Basic settings */
+
+body{
+    margin: 0;
+    padding: 0;                                  
+}
+
+h2{
+    font-family: 'Glacial Indifference', sans-serif;
+}
+
+p{
+    font-family: 'Glacial Indifference', sans-serif;
+}
+
+/* Profile */
+
+.bio{
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.languages{
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.social-media{
+    margin-top: 20px;
+    font-size: 24px;
+    color: grey;
+}
+
+.hero{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.profile-pic{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.div-vector-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vector-img{
+    width: 100px;
+}
+
+/* Testimonial */
+
+.testimonial{
+    background-color: #93BFCF;
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-c2{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.testimonial-vector{
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.testimonial-p{
+    margin-top: 50px;
+    margin-right: 100px;
+    font-size: 24px;
+}
+
+.testimonial-vector2{
+    width: 200px;
+}
+
+/* Blog content */
+
+.blog-title{
+    
+}
+
+.blog-text{
+    font-family: sans-serif, "Noto Sans";
+    font-size: 15px;
+}
+
+/* For smaller screens */
+@media (max-width: 992px){
+
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .testimonial-vector2{
+        width: 100px;
+    }
+
+    h2{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    h3{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    .testimonial-p{
+        margin: 0px;
+    }
+
+    .btn{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+  }
+
